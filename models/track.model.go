@@ -1,12 +1,10 @@
 package models
 
 import (
-	"gorm.io/gorm"
 	"time"
 )
 
 type Track struct {
-	gorm.Model
 	Id             uint      `json:"id" gorm:"primary_key"`
 	Title          string    `json:"title" gorm:"type:varchar(500);not null"`
 	Artists        []*Artist `json:"artists" gorm:"many2many:artist_track"`
