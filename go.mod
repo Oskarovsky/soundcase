@@ -7,6 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-chi/chi v1.5.4
 	github.com/spf13/viper v1.16.0
+	github.com/tcolgate/mp3 v0.0.0-20170426193717-e79c5a46d300
 	github.com/wpcodevo/golang-gorm-postgres v0.0.0-20230325205328-be47b35ea9b4
 	gorm.io/driver/postgres v1.5.2
 	gorm.io/gorm v1.25.4
