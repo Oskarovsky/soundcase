@@ -54,6 +54,8 @@ func main() {
 	r.PUT("/api/track/:id", controllers.UpdateTrack)
 	r.DELETE("/api/track/:id", controllers.DeleteTrack)
 
+	r.GET("/api/files", controllers.ReadFile)
+
 	err = r.Run(":8081")
 	if err != nil {
 		fmt.Printf("There are some problems when trying to run app...")

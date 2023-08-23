@@ -3,10 +3,11 @@ module soundcase
 go 1.18
 
 require (
+	github.com/dhowden/tag v0.0.0-20230630033851-978a0926ee25
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-chi/chi v1.5.4
-	github.com/google/uuid v1.1.2
 	github.com/spf13/viper v1.16.0
+	github.com/tcolgate/mp3 v0.0.0-20170426193717-e79c5a46d300
 	github.com/wpcodevo/golang-gorm-postgres v0.0.0-20230325205328-be47b35ea9b4
 	gorm.io/driver/postgres v1.5.2
 	gorm.io/gorm v1.25.4
@@ -51,6 +52,5 @@ require (
 	golang.org/x/text v0.9.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
